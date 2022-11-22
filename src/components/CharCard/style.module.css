@@ -1,0 +1,23 @@
+li {
+  width: fit-content;
+  /* padding: 1rem; */
+  height: fit-content;
+  box-shadow: 0 0 15px black;
+  border-radius: 20px 5px 20px 5px;
+  background-color: rgb(255, 126, 126);
+  height: 97%;
+}
+li > img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0 0 16px 5px;
+}
+
+li > h4 {
+  font-size: 15px;
+}
+
+.alive {
+  background-color: rgb(137, 255, 126);
+}
