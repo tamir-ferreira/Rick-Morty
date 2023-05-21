@@ -10,7 +10,7 @@ export const Characters = ({ characterList, page, setPage }) => {
   };
   return (
     <>
-      <h2 className="title size-1">Meus personagens</h2>
+      <h2 className="title size-1">Personagens Rick and Morty</h2>
       <ul>
         {characterList.map((character) => (
           <CharCard key={character.id} character={character} />
